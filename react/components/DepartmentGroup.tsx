@@ -16,7 +16,7 @@ const DepartmentGroup = ({ departments, handleSetSlug }: Props) => {
   console.log("mi grupo de departamentos es:", departments);
 
   const onHandleSetSlug = (event: any) => {
-    handleSetSlug(`${event.target.value}/$\{term\}&map=ft`)
+    handleSetSlug(`${event.target.value}?_q=${event.target.value}&map=ft`)
   }
 
   const departmentOptions: any = departments.map((department: Category) => {
