@@ -32,6 +32,6 @@
 }
 @media (max-width: 550px) {
   .searchContainer{
-   
+    flex-direction: column;
   }
 }
