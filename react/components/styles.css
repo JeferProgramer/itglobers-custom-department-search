@@ -30,3 +30,8 @@
   border: solid thin #AB1114;
   color: white;
 }
+@media (max-width: 550px) {
+  .searchContainer{
+   
+  }
+}
